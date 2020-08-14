@@ -1,21 +1,37 @@
-//  Package dog Allows the conversion from dog years to human years and the other way around.
-package dog
+package main
+
+import (
+	"fmt"
+
+)
+
+func main () {
+
+fmt.Println("My multiplication: ",  multiply(5, 5))
 
 
-//  Dyears converts from dog years to human years.
-func Dyears(d int) int {
-  return n * 7
+
+
+
+
+
+
+
 }
 
+func multiply(i  ...int)   int {
 
-// Hyear converts from human years to dog years.
-func Hyear(i int) int{
-	return n / 7
+	mult := 1
+
+	for _, v := range i {
+		mult *= v
+
+
+	}
+
+
+	return mult + 1
+
 
 
 }
-
-
-
-
-
