@@ -1,36 +1,19 @@
 package main
 
-import (
-	"fmt"
-
-)
+import "fmt"
 
 func main () {
 
-fmt.Println("My multiplication: ",  multiply(5, 5))
 
-
-
-
-
-
-
+	fmt.Println(divi( 25,5) )
 
 
 }
 
-func multiply(i  ...int)   int {
-
-	mult := 1
-
-	for _, v := range i {
-		mult *= v
+func divi(i, ii int) int{
 
 
-	}
-
-
-	return mult + 1
+	return i  / ii + 1
 
 
 

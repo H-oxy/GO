@@ -1,7 +1,11 @@
 package dog
 
+import "fmt"
+
+
 func ExampleDyears() {
-	fmt.Println(Dyears(5))
+	d := Dyears(5)
+	fmt.Println(d)
 	//Output:
 	//35
 
@@ -11,7 +15,8 @@ func ExampleDyears() {
 }
 
 func ExampleHyear() {
-	fmt.Println(Hyear(35))
+	i := Hyear(35)
+	fmt.Println(i)
 	//Output:
 	//5
 
